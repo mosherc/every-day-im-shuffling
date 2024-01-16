@@ -1,0 +1,25 @@
+{
+  "name": "every-day-im-shuffling",
+  "version": "0.0.0",
+  "description": "Shuffling utilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "tsx src/index.ts"
+  },
+  "type": "module",
+  "author": "Colin Mosher",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.1",
+    "eslint": "^8.56.0",
+    "inquirer": "^9.2.12",
+    "prettier": "^3.2.2",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^3.3.0"
+  }
+}
